@@ -1,5 +1,6 @@
 # Beginner-Python-projects
 
-Clone this github repo and have fun learning Python. </br>
-Easy to navigate structure. </br>
-Uses Python 2, if you want you can add Python 3 code too.
+# This repo has multiple uses 
+
+-> People who are new to GitHub can use this repo for forking, branching, pull requests, etc. </br>
+-> People who are new to Python can have fun discovering this language!
