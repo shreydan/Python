@@ -25,8 +25,8 @@ def tweetthis(type):
 		print "Enter pic path "+user.name
 		pic = os.path.abspath(raw_input())
 		print "Enter status "+user.name
-		status = raw_input()
-		api.update_with_media(pic, status=status)
+		title = raw_input()
+		api.update_with_media(pic, status=title)
 
 def initialize():
 	global api, auth, user
@@ -46,7 +46,7 @@ def main():
 	if doit == 1:
 		initialize()
 		tweetthis("text")
-	elif doit == 2::
+	elif doit == 2:
 		initialize()
 		tweetthis("pic")
 	else:
