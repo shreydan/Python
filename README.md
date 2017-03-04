@@ -11,7 +11,7 @@
 : Collatz conjecture: every number leads to 1 when if number is even divide it by 2 and if odd multiply by 3 and and 1.
 
 ``` charfreqcount.py ```
-: REturns frequency of every character in the sentence given.
+: Returns frequency of every character in the sentence given.
 
 ``` tweets.py ```
 : This script allows the user to tweet text or an image directly from the terminal.
