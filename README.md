@@ -15,3 +15,6 @@
 
 ``` tweets.py ```
 : This script allows the user to tweet text or an image directly from the terminal.
+
+``` MathGame.py ```
+: A math game with 3 levels, 2 operands, 4 operators and grades accordingly.
