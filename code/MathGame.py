@@ -72,15 +72,13 @@ def levels(level,questions):
 
     global numbers
     numbers=[]
-    if level==1:
-        while len(numbers) <= 1:
-            numbers.append(float(random.randint(1,15)))
-    elif level==2:
-        while len(numbers) <= 1:
-            numbers.append(float(random.randint(5,20)))
-    elif level==3:
-        while len(numbers) <= 1:
-            numbers.append(float(random.randint(10,30)))
+    while len(numbers) <= 1:
+        if level==1:
+                numbers.append(float(random.randint(1,15)))
+        elif level==2:
+                numbers.append(float(random.randint(5,20)))
+        elif level==3:
+                numbers.append(float(random.randint(10,30)))
 
     calculator(numbers,operator,level,questions)
 
@@ -113,3 +111,15 @@ def welcome():
     difficultyselector()
 
 welcome()
+
+
+"""
+Working:
+    -> welcome(): main method, does what it says!
+    -> difficultyselector(): selects level
+    -> loop(level): a question looper based on your level from difficultyselector()
+    -> levels(level, questions): generates operator and operands
+    -> calculator(numbers,operator,level,questions): calculates the answer, increments right and wrong answers and prints wrong ones.
+    -> finalizer(level,questions,correct,wrong): evaluates solutions and sends them for result
+    -> result(correct, wrong, level): prints grade accordingly.
+"""
