@@ -8,7 +8,7 @@
 ## FILES:
 
 ` Collatz.py `
-: Collatz conjecture: every number leads to 1 when if number is even divide it by 2 and if odd multiply by 3 and and 1.
+: Collatz conjecture: Begin with a number and if it's even: divide by 2, if odd: multiply by 3 and add 1; continue with the resulting nos. and eventually it reaches 0. 
 
 ` charfreqcount.py `
 : Returns frequency of every character in the sentence given.
