@@ -20,6 +20,7 @@ def collatz(n): # collatz function with n as parameter.
 			n = n *3 + 1
 			step += 1
 		elif n == 1:
+			step += 1
 			break
 	
 	print "It took %s steps to reach 1 with %s"%(step,num)
@@ -29,7 +30,7 @@ def input():
 	n= int(raw_input("Enter a no. "))
 	while n==1 or n == 0:
 		print "Nope, Another.."
-		n = int(raw_input("Enter a no. "))
+		input()
 	else:
 		collatz(n) # call collatz function with n as argument
 		
