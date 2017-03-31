@@ -13,3 +13,12 @@
 
 ` MathGame.py `
 : A math game with 3 levels, 2 operands, 4 operators and grades accordingly.
+
+` imfeelinglucky.py`
+: Clicks on the first link in a Google search result
+
+` search.py`
+: Google search from terminal
+
+` instafollow.py`
+: Logs in and follows people when usernames are provided
