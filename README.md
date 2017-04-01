@@ -1,5 +1,9 @@
 # Python
 
+## to install modules run:
+
+` pip install -r requirements.txt `
+
 ## FILES:
 
 ` Collatz.py `
@@ -22,3 +26,6 @@
 
 ` instafollow.py`
 : Logs in and follows people when usernames are provided
+
+` primes.py	`
+: Generates prime numbers and writes them to a file

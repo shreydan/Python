@@ -1,4 +1,9 @@
-""" Instagram Instant follow method """
+"""
+Instagram Instant follow using Selenium module: pip install selenium
+written in Python 2.7
+
+Uses Firefox webdriver, feel free to change the browser variable with desired driver
+"""
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys

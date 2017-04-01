@@ -2,7 +2,7 @@
 This program allows you to tweet directly from terminal.
 
 Prerequisites:
-	install tweepy (python module) with "pip install tweepy"
+	install tweepy (python module) with "pip install tweepy" Ignore if installed from requirements.txt
 	Also, grab your Twitter API from apps.twitter.com
 	Get your comsumer key, consumer key secret, access token, access token secret.
 	Replace them in initialize() method.
