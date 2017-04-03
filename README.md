@@ -29,3 +29,6 @@
 
 ` primes.py	`
 : Generates prime numbers and writes them to a file
+
+` txtbin.py `
+: Converts text to binary
