@@ -1,5 +1,7 @@
 # Python
 
+All programs are written in Python 2.7
+
 ## to install modules run:
 
 ` pip install -r requirements.txt `
