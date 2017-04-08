@@ -37,3 +37,15 @@ All programs are written in Python 2.7
 
 ` checknet.py `
 : Checks if internet is working or not.
+
+` linear.py `
+: linear search algorithm.
+
+` binary.py `
+: binary search algorithm.
+
+` bubble.py `
+: bubble sort algorithm.
+
+` selection.py `
+: selection sort algorithm.
