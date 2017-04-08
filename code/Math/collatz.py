@@ -1,5 +1,5 @@
 """
-Written in Python 2.
+Written in Python 3.
  
 This program is all yours now! Have fun experimenting!!
 
@@ -23,13 +23,13 @@ def collatz(n): # collatz function with n as parameter.
 			step += 1
 			break
 	
-	print "It took %s steps to reach 1 with %s"%(step,num)
+	print ("It took %s steps to reach 1 with %s"%(step,num))
 			
 def input():
 	# takes input and rejects it to use it as an argument till it's neither 1 nor 0.
-	n= int(raw_input("Enter a no. "))
+	n= int(input("Enter a no. "))
 	while n==1 or n == 0:
-		print "Nope, Another.."
+		print ("Nope, Another..")
 		input()
 	else:
 		collatz(n) # call collatz function with n as argument

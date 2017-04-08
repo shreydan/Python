@@ -1,5 +1,5 @@
 """
-Written in Python 2.7
+Written in Python 3
 
 Description: writes "n" prime nos to a file.
 teaches while loop, defining function and calling it, file input.
@@ -16,7 +16,7 @@ def write_to_file(primes):
 		pnos = str(pnos)+"\n"
 		f.write(pnos)
 	
-	print "The primes are in the file primes.txt"
+	print ("The primes are in the file primes.txt")
 	
 
 def prime():
@@ -24,8 +24,8 @@ def prime():
     primes = []
     i = 1
     num = 2
-    n = int(raw_input("Enter the no. of prime nos. you want\n>>> "))
-    print "generating..."
+    n = int(input("Enter the no. of prime nos. you want\n>>> "))
+    print ("generating...")
     while len(primes) < n: # loop to generate n prime nos.
         count = 0
 	i = 1

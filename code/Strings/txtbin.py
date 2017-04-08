@@ -1,5 +1,5 @@
 """
-Written in Python 2.7
+Written in Python 3
 Description: converts string to binary
 Written by: Shreyas Daniel github.com/shreydan
 """
@@ -12,5 +12,5 @@ def tobin(string):
 	
 	return bstring.strip(' ') #remove trailing white space
 	
-string = raw_input("Text to Binary\n>>> ")
-print tobin(string)
+string = input("Text to Binary\n>>> ")
+print (tobin(string))

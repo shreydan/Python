@@ -1,5 +1,5 @@
 """
-Written in Python 2.
+Written in Python 3.
  
 This program is all yours now! Have fun experimenting!!
 
@@ -9,7 +9,7 @@ teaches: creating functions, function calling, loops, bubble sort algorithm, lis
 """
 
 def main():
-	sentence = raw_input("\n\nEnter a sentence\n")
+	sentence = input("\n\nEnter a sentence\n")
 	sentence = sentence.lower()
 	string = sentence.replace(" ","")
 	chars = []
@@ -30,10 +30,10 @@ def main():
 				count += 1
 		alphad.update({abet:count})
 				
-	print "\n<!---FREQUENCY---!>\n"
+	print ("\n<!---FREQUENCY---!>\n")
 	for ch in alphad:
-		print ch + " : "+str(alphad[ch])
-	print "\n\n"
+		print (ch + " : "+str(alphad[ch]))
+	print ("\n\n")
 	
 		
 main()

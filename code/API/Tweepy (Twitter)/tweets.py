@@ -10,21 +10,22 @@ Prerequisites:
 Have fun, this code is all yours.
 NEVER SHARE YOUR CONSUMER KEY SECRET AND ACCESS TOKEN SECRET!!!
 """
+
 import tweepy, os
 
 def tweetthis(type):
 	if type == "text":
-		print "Enter your tweet "+user.name
-		tweet = raw_input()
+		print ("Enter your tweet "+user.name)
+		tweet = input()
 		api.update_status(tweet)
 	elif type == "pic":
-		print "Enter pic path "+user.name
-		pic = os.path.abspath(raw_input())
-		print "Enter status "+user.name
-		title = raw_input()
+		print ("Enter pic path "+user.name)
+		pic = os.path.abspath(input())
+		print ("Enter status "+user.name)
+		title = input()
 		api.update_with_media(pic, status=title)
 
-	print "\n\nDONE!!"
+	print ("\n\nDONE!!")
 
 def initialize():
 	global api, auth, user
@@ -40,14 +41,14 @@ def initialize():
 	user = api.me()
 
 def main():
-	doit = int(raw_input("\n1. text\n2. picture\n"))
+	doit = int(input("\n1. text\n2. picture\n"))
 	initialize()
 	if doit == 1:
 		tweetthis("text")
 	elif doit == 2:
 		tweetthis("pic")
 	else:
-		print "OK, Let's try again!"
+		print ("OK, Let's try again!")
 		main()
 
 main()

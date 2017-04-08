@@ -1,6 +1,6 @@
-# Python
+# Python Scripts
 
-All programs are written in Python 2.7
+All programs are written in Python 3.5
 
 ## to install modules run:
 
