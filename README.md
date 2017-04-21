@@ -49,3 +49,6 @@ All programs are written in Python 3.5
 
 ` selection.py `
 : selection sort algorithm.
+
+` timymodule.py`
+: a look at timy module - [timy module - GitHub](https://github.com/ramonsaraiva/timy)
