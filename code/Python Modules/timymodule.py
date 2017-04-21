@@ -7,7 +7,7 @@ A great alternative to Pythons 'timeit' module and easier to use.
 
 import timy # begin by importing timy
 
-@timy.timer(ident = 'listcomp', loops = 1) # timy property
+@timy.timer(ident = 'listcomp', loops = 1) # timy decorator
 def listcomprehension(): # the function whose execution time is calculated.
 	li = [x for x in range(0,100000,2)]
 
@@ -16,10 +16,10 @@ listcomprehension()
 """
 this is how the above works:
 	timy property is created.
-	any function underneath the property is the function whose execution time
+	any function underneath the timy decorator is the function whose execution time
 	need to be calculated.
 	after the function is called. The execution time is printed.
-	in the timy property:
+	in the timy decorator:
 		ident: an identity for each timy property, handy when using a lot of them
 		loops: no. of times this function has to be executed
 """
