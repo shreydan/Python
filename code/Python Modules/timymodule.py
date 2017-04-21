@@ -25,7 +25,8 @@ this is how the above works:
 """
 
 # this can also be accomplished by 'with' statement:
-# with tracking points in between code.
+# tracking points in between code can be added
+# to track specific instances in the program
 
 def listcreator():
 	with timy.Timer() as timer:
