@@ -11,7 +11,7 @@ You might have to use `pip3 install -r requirements.txt` If your computer has bo
 ## A message from shreydan:
 
 - All scripts are written by me with sufficient amount of comments.
-- _**star**_ this repository if you found any of the code to be helpful.
+- _**Star**_ this repository if you found any of the code to be helpful.
 - Please _**contribute**_ by **_forking_** this repository.
 - If you need help in understandng any part of the scripts, raise an _**issue**_ and I'll explain.
 
