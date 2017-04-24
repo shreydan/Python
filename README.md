@@ -6,6 +6,15 @@ All programs are written in Python 3.5
 
 ` pip install -r requirements.txt `
 
+You might have to use `pip3 install -r requirements.txt` If your computer has both Python 2 and 3 installed. 
+
+## A message from shreydan:
+
+- All scripts are written by me with sufficient amount of comments.
+- _**star**_ this repository if you found any of the code to be helpful.
+- Please _**contribute**_ by **_forking_** this repository.
+- If you need help to understand any part of the scripts, raise an _**issue**_ and I'll explain.
+
 ## FILES:
 
 ` Collatz.py `
