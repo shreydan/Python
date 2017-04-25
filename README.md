@@ -1,6 +1,6 @@
 # Python Scripts
 
-All programs are written in Python 3.5
+All programs are written in ![Python 3.6](https://img.shields.io/badge/Python-3.5-yellow.svg)
 
 ## to install modules run:
 
@@ -13,7 +13,7 @@ You might have to use `pip3 install -r requirements.txt` If your computer has bo
 - All scripts are written by me with sufficient amount of comments.
 - _**Star**_ this repository if you found any of the code to be helpful.
 - Please _**contribute**_ by **_forking_** this repository.
-- If you need help in understandng any part of the scripts, raise an _**issue**_ and I'll explain.
+- If you need help in understanding any part of the scripts, raise an _**issue**_ and I'll explain.
 
 ## FILES:
 
