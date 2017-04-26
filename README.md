@@ -61,3 +61,6 @@ You might have to use `pip3 install -r requirements.txt` If your computer has bo
 
 ` timymodule.py`
 : a look at timy module - [timy module - GitHub](https://github.com/ramonsaraiva/timy)
+
+` xkcd_comics.py `
+: downloads the latest XKCD comic into a new folder (comics).
