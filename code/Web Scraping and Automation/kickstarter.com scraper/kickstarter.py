@@ -1,3 +1,13 @@
+"""
+Written by: Shreyas Daniel - github.com/shreydan
+Written on: 29 April 2017
+
+Description: Prints project details of any kickstarter campaign.
+
+Before executing:
+    Please copy the URL of the project to project.txt (ONLY 1 URL at a time)
+"""
+
 import requests
 from lxml import html
 import os
