@@ -31,6 +31,8 @@ _Contribute_ by **forking** this repo.
   * [Sorting](https://github.com/shreydan/Python/tree/master/code/Algorithms/Sorting)
       - [bubble.py](https://github.com/shreydan/Python/blob/master/code/Algorithms/Sorting/bubble.py)
       : Bubble sort algorithm.
+      - [insertion.py](https://github.com/shreydan/Python/blob/master/code/Algorithms/Sorting/insertion.py)
+      : Selection sort algorithm.
       - [selection.py](https://github.com/shreydan/Python/blob/master/code/Algorithms/Sorting/selection.py)
       : Selection sort algorithm.
     
