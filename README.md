@@ -40,10 +40,12 @@ _Contribute_ by **forking** this repo.
   * [Primes](https://github.com/shreydan/Python/tree/master/code/Math/Primes)
     - [primes.py](https://github.com/shreydan/Python/blob/master/code/Math/Primes/primes.py)
     : Generates prime numbers and writes them to a file.
-  * [MathGame.py](https://github.com/shreydan/Python/blob/master/code/Math/MathGame.py)
-  : A math game with 3 levels, 2 operands, 4 operators and grades accordingly.
+  * [calculator.py](https://github.com/shreydan/Python/blob/master/code/Math/calculator.py)
+  : Pythons eval() fuction to implement a calculator.
   * [collatz.py](https://github.com/shreydan/Python/blob/master/code/Math/collatz.py)
   : Collatz conjecture: Begin with a number and if it's even: divide by 2, if odd: multiply by 3 and add 1; continue with the resulting nos. and eventually it reaches 1.
+  * [MathGame.py](https://github.com/shreydan/Python/blob/master/code/Math/MathGame.py)
+  : A math game with 3 levels, 2 operands, 4 operators and grades accordingly.
   
 - [Python Modules](https://github.com/shreydan/Python/tree/master/code/Python%20Modules)
   * [checknet.py](https://github.com/shreydan/Python/blob/master/code/Python%20Modules/checknet.py)
