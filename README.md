@@ -36,6 +36,10 @@ _Contribute_ by **forking** this repo.
       - [selection.py](https://github.com/shreydan/Python/blob/master/code/Algorithms/Sorting/selection.py)
       : Selection sort algorithm.
     
+- [Class Based](https://github.com/shreydan/Python/tree/master/code/Class%20Based)
+  * [Event Ticket Handler](https://github.com/shreydan/Python/tree/master/code/Class%20Based/Event%20Ticket%20Handler)
+  : Manages ticket sales in events with log.
+  
 - [Math](https://github.com/shreydan/Python/tree/master/code/Math)
   * [Primes](https://github.com/shreydan/Python/tree/master/code/Math/Primes)
     - [primes.py](https://github.com/shreydan/Python/blob/master/code/Math/Primes/primes.py)
