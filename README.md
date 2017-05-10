@@ -50,6 +50,8 @@ _Contribute_ by **forking** this repo.
 - [Python Modules](https://github.com/shreydan/Python/tree/master/code/Python%20Modules)
   * [checknet.py](https://github.com/shreydan/Python/blob/master/code/Python%20Modules/checknet.py)
   : Checks if internet is working or not.
+  * [dice.py](https://github.com/shreydan/Python/blob/master/code/Python%20Modules/dice.py)
+  : Rolls dice for you; can also change the no. of dice.
   * [timymodule.py](https://github.com/shreydan/Python/blob/master/code/Python%20Modules/timymodule.py)
   : A look at timy module - [timy module - GitHub](https://github.com/ramonsaraiva/timy)
   
