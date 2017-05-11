@@ -1,6 +1,19 @@
 """
 Written by: Shreyas Daniel - github.com/shreydan
 Description: Uses Pythons infamous eval() function as a way to implement calculator
+
+Functions available:
+
++ : addition
+- : subtraction
+* : multiplication
+/ : division
+% : percentage
+sin: sine(rad)
+cos: cosine(rad)
+tan: tangent(rad)
+sqrt: square_root(n)
+pi: 3.141......
 """
 
 import math
@@ -36,5 +49,6 @@ k = k.replace(' ','')
 k = k.replace('^','**')
 k = k.replace('=','')
 k = k.replace('?','')
+k = k.replace('%','/100')
 
 print ("\n" + str(calc(k)))
