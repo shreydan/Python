@@ -13,7 +13,6 @@ def binary(srchlist,srch):
 			last = mid-1
 		else:
 			return mid
-			break
 	
 	return -1
 
